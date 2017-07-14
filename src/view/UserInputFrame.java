@@ -90,13 +90,21 @@ public class UserInputFrame extends JFrame {
                         tfJobTitle.getText(),tfCarReg.getText(), chkFirstAidTrained.isSelected(),
                          System.currentTimeMillis());
 
+                // LAUNCH THE PHOTO TAKE FRAME
+                PhotoTakeFrame ptf = new PhotoTakeFrame();
+                ptf.setVisible(true);
+//                ptf.setSize(640,480);
+                ptf.setLocationRelativeTo(null);
+//                dispose(); // Hide the Dashboard
+//                setVisible(false); // hide the dashboard
                 // ADD THE PHOTO
-                try {
-                    InductionSWController.getInstance().getCurrentInductee().setPhoto(InductionSWController.getInstance().takePicture()
-                    );
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
-                }
+                // TODO: This goes in next frame
+//                try {
+//                    InductionSWController.getInstance().getCurrentInductee().setPhoto(InductionSWController.getInstance().takePicture()
+//                    );
+//                } catch (InterruptedException e1) {
+//                    e1.printStackTrace();
+//                }
             }
         });
 
@@ -220,6 +228,8 @@ public class UserInputFrame extends JFrame {
                         tfJobTitle.getText(),tfCarReg.getText(), chkFirstAidTrained.isSelected(),
                         System.currentTimeMillis());
                 InductionSWController.getInstance().setCurrentInductee(i);
+
+            // ++++++IF THE INDUCTEE IS NULL IT MEANS THE PHOTOGRAPH BUTTON HAS NOT BEEN CLICKED+++++++
 
 //            if (InductionSWController.getInstance().getCurrentInductee() == null) {
 //                String message = "You have not supplied any photographs of your proof of competencies\nAre you sure you wish to continue??";
