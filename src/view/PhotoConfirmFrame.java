@@ -2,14 +2,12 @@ package view;
 
 import controller.InductionSWController;
 import controller.interfaces.IGui;
-import model.Inductee;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
-import java.io.File;
 
 
 public class PhotoConfirmFrame extends JFrame implements IGui
@@ -19,11 +17,13 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 //    private JButton displayScoreButton;
     private JButton showPhotoButton;
 //    private JButton deleteButton;
-    private JButton okButton;
-//    private JButton cancelButton;
+    private JButton btnYes;
+    private JButton btnNo;
+    //    private JButton cancelButton;
 //    private JButton saveButton;
 //    private JTable inducteesTable;
 //    private InducteesTableModel tableModel;
+    private JLabel lblConfirm;
 
     public PhotoConfirmFrame(String title)
     {
@@ -86,12 +86,18 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 
     private JPanel createBottomButtonPanel()
     {
-        okButton = new JButton("OK");
+        lblConfirm = new JLabel("Is your face clearly visible in the photograph?");
+        btnYes = new JButton("YES");
+        btnNo = new JButton("NO");
 //        cancelButton = new JButton("Cancel");
 //        saveButton = new JButton("Save");
 
         JPanel buttonPanel = new JPanel();
-        buttonPanel.add(okButton);
+        buttonPanel.add(lblConfirm);
+        buttonPanel.add(Box.createHorizontalStrut(40));
+        buttonPanel.add(btnYes);
+        buttonPanel.add(Box.createHorizontalStrut(40));
+        buttonPanel.add(btnNo);
 //        buttonPanel.add(cancelButton);
 //        buttonPanel.add(saveButton);
 
@@ -102,13 +108,23 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 //                JOptionPane.showMessageDialog(ViewInducteesFrame.this, "Inductees saved");
 //            }
 //        });
-        okButton.addActionListener(new ActionListener(){
+        btnYes.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e)
             {
                 InductionSWController.getInstance().launchVideo();
                 dispose();
             }
         });
+        btnNo.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e)
+            {
+                PhotoTakeFrame ptf = new PhotoTakeFrame();
+                ptf.setExtendedState(JFrame.MAXIMIZED_BOTH); // Fullscreen
+                ptf.setVisible(true);
+                dispose();
+            }
+        });
+
 
         return buttonPanel;
     }

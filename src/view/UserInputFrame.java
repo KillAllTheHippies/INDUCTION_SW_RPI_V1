@@ -81,32 +81,32 @@ public class UserInputFrame extends JFrame {
         tfPhoneNum = new JTextField("", 20);
         chkFirstAidTrained = new JCheckBox("Yes", false);
 
-        JButton btnPhotographCompetencies = new JButton("Photograph Competencies");
-        btnPhotographCompetencies.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // CREATE THE INDUCTEE
-                InductionSWController.getInstance().createInductee(tfName.getText(), tfPhoneNum.getText(), tfEmail.getText(),
-                        tfJobTitle.getText(),tfCarReg.getText(), chkFirstAidTrained.isSelected(),
-                         System.currentTimeMillis());
-
-                // LAUNCH THE PHOTO TAKE FRAME
-                PhotoTakeFrame ptf = new PhotoTakeFrame();
-                ptf.setVisible(true);
-//                ptf.setSize(640,480);
-                ptf.setLocationRelativeTo(null);
-//                dispose(); // Hide the Dashboard
-//                setVisible(false); // hide the dashboard
-                // ADD THE PHOTO
-                // TODO: This goes in next frame
-//                try {
-//                    InductionSWController.getInstance().getCurrentInductee().setPhoto(InductionSWController.getInstance().takePicture()
-//                    );
-//                } catch (InterruptedException e1) {
-//                    e1.printStackTrace();
-//                }
-            }
-        });
+//        JButton btnPhotographCompetencies = new JButton("Photograph Competencies");
+//        btnPhotographCompetencies.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                // CREATE THE INDUCTEE
+//                InductionSWController.getInstance().createInductee(tfName.getText(), tfPhoneNum.getText(), tfEmail.getText(),
+//                        tfJobTitle.getText(),tfCarReg.getText(), chkFirstAidTrained.isSelected(),
+//                         System.currentTimeMillis());
+//
+//                // LAUNCH THE PHOTO TAKE FRAME
+//                PhotoTakeFrame ptf = new PhotoTakeFrame();
+//                ptf.setVisible(true);
+////                ptf.setSize(640,480);
+//                ptf.setLocationRelativeTo(null);
+////                dispose(); // Hide the Dashboard
+////                setVisible(false); // hide the dashboard
+//                // ADD THE PHOTO
+//                // TODO: This goes in next frame
+////                try {
+////                    InductionSWController.getInstance().getCurrentInductee().setPhoto(InductionSWController.getInstance().takePicture()
+////                    );
+////                } catch (InterruptedException e1) {
+////                    e1.printStackTrace();
+////                }
+//            }
+//        });
 
         JPanel panel = new JPanel(new MigLayout("wrap 3"));
         panel.add(lblName, "cell 0 0");
@@ -121,8 +121,8 @@ public class UserInputFrame extends JFrame {
         panel.add(tfCarReg, "span 2");
         panel.add(lblFirstAidTrained, "cell 0 5");
         panel.add(chkFirstAidTrained, "span 2");
-        panel.add(Box.createVerticalStrut(20), "cell 0 6");
-        panel.add(btnPhotographCompetencies, "cell 1 7");
+//        panel.add(Box.createVerticalStrut(20), "cell 0 6");
+//        panel.add(btnPhotographCompetencies, "cell 1 7");
         return panel;
     }
 
@@ -229,6 +229,8 @@ public class UserInputFrame extends JFrame {
                         System.currentTimeMillis());
                 InductionSWController.getInstance().setCurrentInductee(i);
 
+                // Dispose the frame
+            dispose();
                 // Launch the Photo taking Dialogue
             PhotoTakeFrame ptf = new PhotoTakeFrame();
             ptf.setVisible(true);
