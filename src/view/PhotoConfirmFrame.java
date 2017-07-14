@@ -105,6 +105,7 @@ public class PhotoConfirmFrame extends JFrame implements IGui
         okButton.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e)
             {
+                InductionSWController.getInstance().launchVideo();
                 dispose();
             }
         });
@@ -185,7 +186,7 @@ public class PhotoConfirmFrame extends JFrame implements IGui
             //we only added an instance of this listener to
             //JButtons
             JButton sourceButton = (JButton)e.getSource();
-            //          DISPLAY SCORE BUTTON
+            //          SHOW PHOTO BUTTON
             if(sourceButton.equals(showPhotoButton))
             {
                 //Check if row is selected

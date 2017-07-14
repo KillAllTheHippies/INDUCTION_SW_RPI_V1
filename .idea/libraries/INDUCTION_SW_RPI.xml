@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="INDUCTION_SW_RPI">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_jar/INDUCTION_SW_RPI.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -223,11 +223,17 @@ public class UserInputFrame extends JFrame {
             // ------------------BEGIN INDUCTION BUTTON------------------
             else if (sourceButton.equals(beginInductionButton)) {
 
-
+                // Create the Inductee
                 Inductee i = InductionSWController.getInstance().createInductee(tfName.getText(), tfPhoneNum.getText(), tfEmail.getText(),
                         tfJobTitle.getText(),tfCarReg.getText(), chkFirstAidTrained.isSelected(),
                         System.currentTimeMillis());
                 InductionSWController.getInstance().setCurrentInductee(i);
+
+                // Launch the Photo taking Dialogue
+            PhotoTakeFrame ptf = new PhotoTakeFrame();
+            ptf.setVisible(true);
+//                ptf.setSize(640,480);
+            ptf.setLocationRelativeTo(null);
 
             // ++++++IF THE INDUCTEE IS NULL IT MEANS THE PHOTOGRAPH BUTTON HAS NOT BEEN CLICKED+++++++
 
@@ -250,8 +256,9 @@ public class UserInputFrame extends JFrame {
 //                }
 //
 //            } else {
-                InductionSWController.getInstance().launchVideo();
-                dispose();
+            //TODO: Move this
+//                InductionSWController.getInstance().launchVideo();
+//                dispose();
 //            }
 //                QuizFrame qf = new QuizFrame("Quiz", outerClass);
 //                qf.setSize(400,300);

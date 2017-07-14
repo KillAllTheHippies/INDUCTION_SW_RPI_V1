@@ -48,6 +48,8 @@ public class PhotoTakeFrame extends JFrame implements IGui{
                     System.out.println("No Current Inductee!!!");
                 }
 
+
+
                 PhotoConfirmFrame pcf = new PhotoConfirmFrame("PHOTOGRAPH QUALITY CONFIRMATION");
                 pcf.setVisible(true);
                 pcf.setExtendedState(MAXIMIZED_BOTH);

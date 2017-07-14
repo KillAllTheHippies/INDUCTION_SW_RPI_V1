@@ -246,12 +246,19 @@ public class ViewInducteesFrame extends JFrame implements IGui
 
                     if (InductionSWController.getInstance().getPersistor().read().get
                             (inducteesTable.getSelectedRow()).getPhoto() != null) {
-                        showImage(
-                                InductionSWController.getInstance().getDataModel().get
-                                        (inducteesTable.getSelectedRow()).getPhoto(),
-                                InductionSWController.getInstance().getDataModel().get
-                                        (inducteesTable.getSelectedRow()).getName()
-                                );
+                        try {
+                            showImage(
+                                    InductionSWController.getInstance().getPersistor().read().get
+                                            (inducteesTable.getSelectedRow()).getPhoto(),
+                                    InductionSWController.getInstance().getPersistor().read().get
+                                            (inducteesTable.getSelectedRow()).getName()
+                            );
+                        } catch (NullPointerException e1) {
+                            System.out.println("Caught Null pointer");
+                            e1.printStackTrace();
+                        }
+
+
                     } else {
                         JOptionPane.showMessageDialog
                                 (outerClass,

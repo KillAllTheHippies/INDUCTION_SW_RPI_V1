@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="INDUCTION_SW_RPI_V1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84628e92-a41b-48c5-bab5-a9acc6f20112" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener$1.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/INDUCTION_SW_RPI.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/INDUCTION_SW_RPI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_jar/INDUCTION_SW_RPI.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/DatabasePersistor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/FilePersistor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/InductionSWController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/VideoPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/interfaces/IGui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/interfaces/IPersistor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/interfaces/IPrinter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/controller/interfaces/IScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/DataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/ImageChoiceQuestion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/Inductee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/MultipleChoiceQuestion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/QChoice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/model/Questionnaire.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/ImagePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/InducteesTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/MainApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/MainDashBoardFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/MainDashBoardFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuestionPanel$RadioButtonsActionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuestionPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame$ButtonsActionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/QuizFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/UserInputFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/UserInputFrame$ButtonsActionListener$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/UserInputFrame$ButtonsActionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/UserInputFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/ViewInducteesFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/ViewInducteesFrame$ButtonsActionListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI/view/ViewInducteesFrame.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame$ButtonsActionListener.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame$ButtonsActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoConfirmFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoTakeFrame$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoTakeFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoTakeFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/PhotoTakeFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/ViewInducteesFrame$ButtonsActionListener.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/ViewInducteesFrame$ButtonsActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml" afterPath="$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" afterPath="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" afterPath="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/UserInputFrame.java" afterPath="$PROJECT_DIR$/src/view/UserInputFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ViewInducteesFrame.java" afterPath="$PROJECT_DIR$/src/view/ViewInducteesFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +76,7 @@
       <file leaf-file-name="Inductee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Inductee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
+            <state relative-caret-position="-1924">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -51,25 +102,9 @@
       <file leaf-file-name="InductionSWController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2771#2772#0" expanded="false" />
-                <element signature="e#2808#2809#0" expanded="false" />
-                <element signature="e#2932#2933#0" expanded="false" />
-                <element signature="e#2962#2963#0" expanded="false" />
-                <element signature="e#3003#3004#0" expanded="false" />
-                <element signature="e#3034#3035#0" expanded="false" />
-                <element signature="e#3092#3093#0" expanded="false" />
-                <element signature="e#3134#3135#0" expanded="false" />
-                <element signature="e#3178#3179#0" expanded="false" />
-                <element signature="e#3215#3216#0" expanded="false" />
-                <element signature="e#3666#3667#0" expanded="false" />
-                <element signature="e#3704#3705#0" expanded="false" />
-                <element signature="e#3753#3754#0" expanded="false" />
-                <element signature="e#3793#3794#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="371">
+              <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,11 +112,10 @@
       <file leaf-file-name="UserInputFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+            <state relative-caret-position="252">
+              <caret line="259" column="68" lean-forward="true" selection-start-line="259" selection-start-column="68" selection-end-line="259" selection-end-column="68" />
               <folding>
-                <element signature="e#10210#10225#0" expanded="false" />
-                <element signature="e#10460#10529#0" expanded="false" />
+                <element signature="e#10509#10524#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewInducteesFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ViewInducteesFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ViewInducteesFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4113">
-              <caret line="259" column="21" lean-forward="true" selection-start-line="246" selection-start-column="20" selection-end-line="259" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="237" column="40" lean-forward="true" selection-start-line="237" selection-start-column="40" selection-end-line="237" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -110,8 +144,8 @@
       <file leaf-file-name="PhotoConfirmFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+            <state relative-caret-position="136">
+              <caret line="188" column="34" lean-forward="false" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoTakeFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhotoTakeFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="52" column="53" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+            <state relative-caret-position="748">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,9 +202,11 @@
         <option value="$PROJECT_DIR$/src/view/InducteesTableModel.java" />
         <option value="$PROJECT_DIR$/src/controller/InductionSWController.java" />
         <option value="$PROJECT_DIR$/src/model/Inductee.java" />
+        <option value="$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml" />
+        <option value="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" />
         <option value="$PROJECT_DIR$/src/view/UserInputFrame.java" />
         <option value="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
-        <option value="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" />
+        <option value="$PROJECT_DIR$/src/view/ViewInducteesFrame.java" />
       </list>
     </option>
   </component>
@@ -199,6 +235,16 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INDUCTION_SW_RPI_V1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="INDUCTION_SW_RPI_V1" />
@@ -277,6 +323,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INDUCTION_SW_RPI_V1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INDUCTION_SW_RPI_V1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inductees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -284,6 +344,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -621,23 +684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
           <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2771#2772#0" expanded="false" />
-            <element signature="e#2808#2809#0" expanded="false" />
-            <element signature="e#2932#2933#0" expanded="false" />
-            <element signature="e#2962#2963#0" expanded="false" />
-            <element signature="e#3003#3004#0" expanded="false" />
-            <element signature="e#3034#3035#0" expanded="false" />
-            <element signature="e#3092#3093#0" expanded="false" />
-            <element signature="e#3134#3135#0" expanded="false" />
-            <element signature="e#3178#3179#0" expanded="false" />
-            <element signature="e#3215#3216#0" expanded="false" />
-            <element signature="e#3666#3667#0" expanded="false" />
-            <element signature="e#3704#3705#0" expanded="false" />
-            <element signature="e#3753#3754#0" expanded="false" />
-            <element signature="e#3793#3794#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,8 +693,7 @@
         <state relative-caret-position="3553">
           <caret line="220" column="52" lean-forward="false" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
           <folding>
-            <element signature="e#10210#10225#0" expanded="false" />
-            <element signature="e#10460#10529#0" expanded="false" />
+            <element signature="e#10509#10524#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -678,23 +724,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2771#2772#0" expanded="false" />
-            <element signature="e#2808#2809#0" expanded="false" />
-            <element signature="e#2932#2933#0" expanded="false" />
-            <element signature="e#2962#2963#0" expanded="false" />
-            <element signature="e#3003#3004#0" expanded="false" />
-            <element signature="e#3034#3035#0" expanded="false" />
-            <element signature="e#3092#3093#0" expanded="false" />
-            <element signature="e#3134#3135#0" expanded="false" />
-            <element signature="e#3178#3179#0" expanded="false" />
-            <element signature="e#3215#3216#0" expanded="false" />
-            <element signature="e#3666#3667#0" expanded="false" />
-            <element signature="e#3704#3705#0" expanded="false" />
-            <element signature="e#3753#3754#0" expanded="false" />
-            <element signature="e#3793#3794#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,8 +733,7 @@
         <state relative-caret-position="3553">
           <caret line="220" column="52" lean-forward="false" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
           <folding>
-            <element signature="e#10210#10225#0" expanded="false" />
-            <element signature="e#10460#10529#0" expanded="false" />
+            <element signature="e#10509#10524#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,61 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2771#2772#0" expanded="false" />
-            <element signature="e#2808#2809#0" expanded="false" />
-            <element signature="e#2932#2933#0" expanded="false" />
-            <element signature="e#2962#2963#0" expanded="false" />
-            <element signature="e#3003#3004#0" expanded="false" />
-            <element signature="e#3034#3035#0" expanded="false" />
-            <element signature="e#3092#3093#0" expanded="false" />
-            <element signature="e#3134#3135#0" expanded="false" />
-            <element signature="e#3178#3179#0" expanded="false" />
-            <element signature="e#3215#3216#0" expanded="false" />
-            <element signature="e#3666#3667#0" expanded="false" />
-            <element signature="e#3704#3705#0" expanded="false" />
-            <element signature="e#3753#3754#0" expanded="false" />
-            <element signature="e#3793#3794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/QuestionPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Inductee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-          <folding>
-            <element signature="e#10210#10225#0" expanded="false" />
-            <element signature="e#10460#10529#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ViewInducteesFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4113">
-          <caret line="259" column="21" lean-forward="true" selection-start-line="246" selection-start-column="20" selection-end-line="259" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -790,23 +768,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
+    <entry file="file://$PROJECT_DIR$/INDUCTION_SW_RPI.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Inductee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1924">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="259" column="68" lean-forward="true" selection-start-line="259" selection-start-column="68" selection-end-line="259" selection-end-column="68" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#10509#10524#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="52" column="53" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        <state relative-caret-position="748">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="188" column="34" lean-forward="false" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ViewInducteesFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="237" column="40" lean-forward="true" selection-start-line="237" selection-start-column="40" selection-end-line="237" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>INDUCTION_SW_RPI_V1:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>INDUCTION_SW_RPI_V1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>miglayout-4.0-swing</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
