@@ -34,9 +34,9 @@ public class PhotoTakeFrame extends JFrame implements IGui{
     private JPanel createCenterPanel() {
         JPanel centerPanel = new JPanel();
         centerPanel.setLayout(new GridLayout(0,1));
-        JButton beginInductionBtn = new JButton("Please look directly into the camera and click here when you are ready to be photographed.");
-//        beginInductionBtn.setBorder(new EmptyBorder(100,100,100,100));
-        beginInductionBtn.addActionListener(new ActionListener() {
+        JButton takePhotoButton = new JButton("Please look directly into the camera and click here when you are ready to be photographed.");
+//        takePhotoButton.setBorder(new EmptyBorder(100,100,100,100));
+        takePhotoButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // take the photo
                 try {
@@ -49,12 +49,13 @@ public class PhotoTakeFrame extends JFrame implements IGui{
                 }
 
 
-
+                dispose();
                 PhotoConfirmFrame pcf = new PhotoConfirmFrame("PHOTOGRAPH QUALITY CONFIRMATION");
+                pcf.setUndecorated(true);
                 pcf.setVisible(true);
                 pcf.setExtendedState(MAXIMIZED_BOTH);
                 pcf.setLocationRelativeTo(null);
-                dispose();
+
             }
         });
 //                UserInputFrame uif = new UserInputFrame("Photograph");
@@ -67,7 +68,7 @@ public class PhotoTakeFrame extends JFrame implements IGui{
 //        });
 
 
-        centerPanel.add(beginInductionBtn);
+        centerPanel.add(takePhotoButton);
 
 
         return centerPanel;

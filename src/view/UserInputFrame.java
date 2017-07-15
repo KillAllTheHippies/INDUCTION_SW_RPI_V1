@@ -4,10 +4,14 @@ import controller.InductionSWController;
 import model.Inductee;
 import net.miginfocom.swing.MigLayout;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 /**
  * Created by Jamie on 29/02/16.
@@ -53,12 +57,15 @@ public class UserInputFrame extends JFrame {
         // create the Inductee info input panel
 
         JPanel centerPanel = createCenterPanel();
+        centerPanel.setPreferredSize(new Dimension(320,480));
         mainPanel.add(centerPanel, BorderLayout.CENTER);
 
         // add to the layout
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH); // Fullscreen
+        this.setUndecorated(true);
         this.getContentPane().add(mainPanel);
         //TODO: revert this back to DISPOSE_ON_CLOSE
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 //        this.setUndecorated(true);
 
     }
@@ -109,6 +116,9 @@ public class UserInputFrame extends JFrame {
 //        });
 
         JPanel panel = new JPanel(new MigLayout("wrap 3"));
+//        panel.setSize(640,480);
+
+
         panel.add(lblName, "cell 0 0");
         panel.add(tfName, "span 2");
         panel.add(lblEmail, "cell 0 1");
