@@ -64,7 +64,6 @@ public class UserInputFrame extends JFrame {
         this.setExtendedState(JFrame.MAXIMIZED_BOTH); // Fullscreen
         this.setUndecorated(true);
         this.getContentPane().add(mainPanel);
-        //TODO: revert this back to DISPOSE_ON_CLOSE
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 //        this.setUndecorated(true);
 

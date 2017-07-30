@@ -86,15 +86,18 @@ public class QuizFrame extends JFrame {
         JPanel buttonPanel = new JPanel();
         scoreAssessmentButton = new JButton("Score Assessment");
         cancelInductionButton = new JButton("Cancel Induction");
+        JButton test = new JButton("Test Button");
         ButtonsActionListener buttonListener =
                 new ButtonsActionListener(this);
 
         scoreAssessmentButton.addActionListener(buttonListener);
         cancelInductionButton.addActionListener(buttonListener);
-
+        test.addActionListener(buttonListener);
         buttonPanel.add(cancelInductionButton);
         buttonPanel.add(Box.createHorizontalStrut(120));
         buttonPanel.add(scoreAssessmentButton);
+        buttonPanel.add(Box.createHorizontalStrut(120));
+        buttonPanel.add(test);
 
         return buttonPanel;
     }
@@ -193,9 +196,8 @@ public class QuizFrame extends JFrame {
                                     System.out.println("CURRENT INDUCTEE IS NULL!!!!!!!!!!!!!!!!!!!!");
                                 }
 
-                                // Clear the current Inductee
-//                                InductionSWController.getInstance().setCurrentInductee(null);
 
+                                // LAUNCH THE MAIN DASHBOARD AGAIN
                                 SwingUtilities.invokeLater(new Runnable() {
                                     @Override
                                     public void run() {
@@ -204,6 +206,7 @@ public class QuizFrame extends JFrame {
                                 });
                                 outerClass.dispose();
                             }
+
                         });
                         bottomButtonPanel.add(completeInductionBtn);
                         passedPanel.add(panel, BorderLayout.CENTER);
@@ -282,7 +285,7 @@ public class QuizFrame extends JFrame {
                     JOptionPane.showMessageDialog(null, "You need to answer all questions", "Error", JOptionPane.ERROR_MESSAGE);
 
                 }
-            } else { // ELSE THE BUTTON IS CANCEL INDUCTION
+            } else if (sourceButton.equals(cancelInductionButton)) {
                 SwingUtilities.invokeLater(new Runnable() {
                     @Override
                     public void run() {
@@ -290,6 +293,105 @@ public class QuizFrame extends JFrame {
                     }
                 });
                 dispose();
+            } else // else it is test button
+                {
+                    if (validateQuestionnaire()) {
+
+                        int quizScore = InductionSWController.getInstance().calculateQuizScore
+                                (InductionSWController.getInstance().getCurrentInductee());
+                        int quizSize = InductionSWController.getInstance().getQuestionnaire().getQuestions().size();
+                        final JDialog frame = new JDialog(outerClass, "Score", true);
+                        // remove close button window border
+                        frame.setUndecorated(true);
+
+                        // IF QUIZ IS PASSED
+                        if (InductionSWController.getInstance().isQuizPassed((quizScore * 100) / quizSize)) {
+
+                                    // persist the Inductee
+                                    if (InductionSWController.getInstance().getCurrentInductee() != null) {
+//
+                                        // Write the datamodel
+                                        InductionSWController.getInstance().save();
+                                    } else {
+                                        System.out.println("CURRENT INDUCTEE IS NULL!!!!!!!!!!!!!!!!!!!!");
+                                    }
+
+
+                                    // LAUNCH THE Printable frame
+                                    SwingUtilities.invokeLater(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            new ImageOutputFrame();
+                                        }
+                                    });
+                                    outerClass.dispose();
+                                }
+
+
+                            else { // Else Quiz is FAILED
+                            JPanel dialogPanel = new JPanel();
+                            dialogPanel.setLayout(new BorderLayout());
+
+                            JPanel panel = new JPanel();
+                            panel.setLayout(new GridLayout(0, 1));
+
+                            dialogPanel.setBorder(new EtchedBorder(EtchedBorder.RAISED));
+                            panel.setBorder(new EmptyBorder(10,10,10,10));
+
+                            JLabel scoreLabel = new JLabel("Your Score was: " + quizScore + " correct out of " + quizSize +
+                                    "(" + (quizScore * 100) / quizSize + "%)");
+                            JLabel passLabel = new JLabel("Unfortunately you have NOT passed. " +
+                                    "Please watch the induction video again and attempt to answer at least " +
+                                    InductionSWController.QUIZ_PASS_PERCENTAGE + "% correct.");
+
+                            panel.add(scoreLabel);
+                            panel.add(passLabel);
+                            panel.add(Box.createVerticalStrut(5));
+                            panel.add(new JSeparator(JSeparator.HORIZONTAL));
+
+
+                            JPanel bottomButtonPanel = new JPanel();
+                            JButton reTakeQuizBtn = new JButton("Re-take Assessment");
+                            reTakeQuizBtn.addActionListener(new ButtonsActionListener(outerClass) {
+                                public void actionPerformed(ActionEvent e) {
+                                    InductionSWController.getInstance().launchVideo();
+                                    outerClass.dispose();
+                                }
+                            });
+
+
+                            JButton quitBtn = new JButton("Quit");
+                            quitBtn.addActionListener(new ButtonsActionListener(outerClass) {
+                                public void actionPerformed(ActionEvent e) {
+                                    // TODO: return to main dashboard
+                                    SwingUtilities.invokeLater(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            new MainDashBoardFrame();
+                                        }
+                                    });
+
+
+                                    outerClass.dispose();
+                                }
+                            });
+
+                            bottomButtonPanel.add(reTakeQuizBtn);
+                            bottomButtonPanel.add(quitBtn);
+                            dialogPanel.add(bottomButtonPanel, BorderLayout.SOUTH);
+
+
+                            dialogPanel.add(panel, BorderLayout.CENTER);
+                            frame.getContentPane().add(dialogPanel);
+                            frame.pack();
+                            frame.setLocationRelativeTo(null);
+                            frame.setVisible(true);
+
+                        }
+                    } else { // ELSE QUESTIONNAIRE NOT VALIDATED
+                        JOptionPane.showMessageDialog(null, "You need to answer all questions", "Error", JOptionPane.ERROR_MESSAGE);
+
+                    }
             }
 
         }

@@ -57,40 +57,17 @@ public class PhotoConfirmFrame extends JFrame implements IGui
     }
     public void refreshGUI()
     {
-//        //This "wakes up" the table model and tells it
-//        //that the data model it is connected to has changed.
-//        this.tableModel =
-//                new InducteesTableModel(InductionSWController.getInstance().getPersistor().read());
-//        inducteesTable.setModel(tableModel);
-//        this.tableModel.fireTableDataChanged();
+
     }
 
-//    private JScrollPane createTableScrollPane()
-//    {
-//        inducteesTable = new JTable();
-//
-//        //In future weeks we'll have a call to the
-//        //controller here to get us the list of players which
-//        //it manages as data model objects
-//        tableModel =
-//                new InducteesTableModel(InductionSWController.getInstance().getPersistor().read());
-//
-//        inducteesTable.setModel(tableModel);
-//
-//        JScrollPane tableScrollPane = new JScrollPane(inducteesTable);
-//        //Can also be done this way
-//        //JScrollPane tableScrollPane = new JScrollPane();
-//        //tableScrollPane.add(inducteesTable)
-//        return tableScrollPane;
-//    }
+
 
     private JPanel createBottomButtonPanel()
     {
         lblConfirm = new JLabel("Is your face clearly visible in the photograph?");
         btnYes = new JButton("YES");
         btnNo = new JButton("NO");
-//        cancelButton = new JButton("Cancel");
-//        saveButton = new JButton("Save");
+
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(lblConfirm);
@@ -98,16 +75,7 @@ public class PhotoConfirmFrame extends JFrame implements IGui
         buttonPanel.add(btnYes);
         buttonPanel.add(Box.createHorizontalStrut(40));
         buttonPanel.add(btnNo);
-//        buttonPanel.add(cancelButton);
-//        buttonPanel.add(saveButton);
-
-//        saveButton.addActionListener(new ActionListener(){
-//            public void actionPerformed(ActionEvent e)
-//            {
-//                InductionSWController.getInstance().save();
-//                JOptionPane.showMessageDialog(ViewInducteesFrame.this, "Inductees saved");
-//            }
-//        });
+//
         btnYes.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e)
             {
@@ -131,9 +99,8 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 
     private JPanel createSideButtonPanel()
     {
-//        displayScoreButton = new JButton("Display Score");
         showPhotoButton = new JButton("Show Photo");
-//        deleteButton = new JButton("Delete");
+
 //
 //        //Create an instance of inner class
 //        //SideButtonsActionListener
@@ -151,14 +118,8 @@ public class PhotoConfirmFrame extends JFrame implements IGui
         BoxLayout boxL = new BoxLayout(sideButtonPanel, BoxLayout.Y_AXIS);
         sideButtonPanel.setLayout(boxL);
 //
-//// Can also be written like this in one line.
-////		sideButtonPanel.setLayout(
-////		new BoxLayout(sideButtonPanel, BoxLayout.X_AXIS));
-//        sideButtonPanel.add(displayScoreButton);
-//        sideButtonPanel.add(Box.createVerticalStrut(5));
         sideButtonPanel.add(showPhotoButton);
-//        sideButtonPanel.add(Box.createVerticalStrut(5));
-//        sideButtonPanel.add(deleteButton);
+
 
         return sideButtonPanel;
     }
@@ -197,23 +158,12 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 
         public void actionPerformed(ActionEvent e)
         {
-            //We know that the source of any ActionEvent
-            //in this program MUST be a JButton seeing as
-            //we only added an instance of this listener to
-            //JButtons
+
             JButton sourceButton = (JButton)e.getSource();
             //          SHOW PHOTO BUTTON
             if(sourceButton.equals(showPhotoButton))
             {
-                //Check if row is selected
-//                if(inducteesTable.getSelectedRow() == -1)
-//                {
-//                    JOptionPane.showMessageDialog
-//                            (outerClass,
-//                                    "You need to select a row in the table",
-//                                    "Error", JOptionPane.ERROR_MESSAGE);
-//                }
-//                else
+
                 if (InductionSWController.getInstance().getCurrentInductee().getPhoto()!=null)
                 {
                     showImage(
@@ -229,52 +179,10 @@ public class PhotoConfirmFrame extends JFrame implements IGui
 
 
             }
-            //              DELETE BUTTON
+
             else
             {
-//                //Check if row is selected
-//                if(inducteesTable.getSelectedRow() == -1)
-//                {
-//                    JOptionPane.showMessageDialog
-//                            (outerClass,
-//                                    "You need to select a row in the table",
-//                                    "Error", JOptionPane.ERROR_MESSAGE);
-//                }
-//                else
-//                {
-//                    String message = "WARNING: Are you sure you want to delete this inductee ? \nTHIS OPERATION IS UNRECOVERABLE!!";
-//                    int answer =
-//                            JOptionPane.showConfirmDialog(outerClass, message);
-//                    if(answer == JOptionPane.YES_OPTION)
-//                    {
-//                        String fileName = InductionSWController.getInstance().getPersistor().read().get(inducteesTable.getSelectedRow()).getUUID();
-//                        boolean success = (new File
-//                                ("Inductees/" + fileName)).delete();
-//                        if (success) {
-//                            System.out.println("The file has been successfully deleted");
-//                            JOptionPane.showMessageDialog
-//                                    (outerClass,
-//                                            "File deleted",
-//                                            "Success!", JOptionPane.INFORMATION_MESSAGE);
 //
-//                            InductionSWController.getInstance().setGuiReference(outerClass);
-//                            InductionSWController.getInstance().getGuiReference().refreshGUI();
-//                        }
-//
-////                        ArrayList<Inductee> inductees = InductionSWController.getInstance().getDataModel().getInductees();
-////                        inductees.remove(inducteesTable.getSelectedRow());
-////                        InductionSWController.getInstance().getDataModel().setInductees(inductees);
-////                        InductionSWController.getInstance().save();
-////                        refreshGUI();
-//                    }
-//                    else if (answer == JOptionPane.NO_OPTION)
-//                    {
-//
-//                    }
-//                    else
-//                    {
-//
-//                    }
                 }
             }
 

@@ -44,7 +44,7 @@ public class MainDashBoardFrame extends JFrame implements IGui{
                 UserInputFrame uif = new UserInputFrame("Induction Application");
 
                 uif.setVisible(true);
-                uif.setSize(1024,768);
+                uif.setSize(640,480);
                 uif.setLocationRelativeTo(null);
                 dispose(); // Hide the Dashboard
 //                setVisible(false); // hide the dashboard
