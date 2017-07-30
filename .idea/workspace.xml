@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84628e92-a41b-48c5-bab5-a9acc6f20112" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_V1_jar/INDUCTION_SW_RPI_V1.jar" afterPath="$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_V1_jar/INDUCTION_SW_RPI_V1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/MainDashBoardFrame$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/MainDashBoardFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Questionnaire.txt" afterPath="$PROJECT_DIR$/Questionnaire.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Inductee.java" afterPath="$PROJECT_DIR$/src/model/Inductee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/MainDashBoardFrame.java" afterPath="$PROJECT_DIR$/src/view/MainDashBoardFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" afterPath="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/QuizFrame.java" afterPath="$PROJECT_DIR$/src/view/QuizFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/UserInputFrame.java" afterPath="$PROJECT_DIR$/src/view/UserInputFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" afterPath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +50,8 @@
       <file leaf-file-name="ImageOutputFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="188">
+              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +64,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ImagePanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -956,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ImagePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MainDashBoardFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -1019,10 +1011,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="188">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

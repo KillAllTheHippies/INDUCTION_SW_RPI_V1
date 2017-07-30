@@ -3,10 +3,14 @@ package view;
 import controller.InductionSWController;
 import net.miginfocom.swing.MigLayout;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 
 /**
@@ -28,10 +32,18 @@ public class ImageOutputFrame extends JFrame {
     }
     private JPanel createCenterPanel() {
         JPanel centerPanel = new JPanel();
-        centerPanel.setLayout(new GridLayout(1, 0));
-        ImagePanel imagePanel = new ImagePanel(InductionSWController.getInstance().getCurrentInductee().getPhoto());
-        centerPanel.add(imagePanel);
-        centerPanel.add(createDetailsPanel());
+        centerPanel.setLayout(new BorderLayout(10,10));
+//        ImagePanel imagePanel = new ImagePanel(InductionSWController.getInstance().getCurrentInductee().getPhoto());
+//        imagePanel.setSize(InductionSWController.getInstance().getCurrentInductee().getPhoto().getWidth(),InductionSWController.getInstance().getCurrentInductee().getPhoto().getHeight());
+        JPanel imagePanel = new JPanel();
+
+        BufferedImage img = InductionSWController.getInstance().getCurrentInductee().getPhoto();
+
+        ImageIcon icon = new ImageIcon(img);
+        JLabel label = new JLabel(icon);
+        imagePanel.add(label);
+        centerPanel.add(imagePanel,BorderLayout.CENTER);
+        centerPanel.add(createDetailsPanel(),BorderLayout.EAST);
         return centerPanel;
     }
 
