@@ -29,6 +29,7 @@ public class ImageOutputFrame extends JFrame {
         this.add(mainPanel);
         this.pack();
         this.setVisible(true);
+        createImageFromFrame();
     }
     private JPanel createCenterPanel() {
         JPanel centerPanel = new JPanel();
@@ -76,5 +77,13 @@ public class ImageOutputFrame extends JFrame {
 
         return detailsPanel;
 
+    }
+
+    private void createImageFromFrame() {
+        BufferedImage bi = new BufferedImage(this.getSize().width, this.getSize().height, BufferedImage.TYPE_INT_ARGB);
+        Graphics g = bi.createGraphics();
+        this.paint(g);  //this == JComponent
+        g.dispose();
+        try{ImageIO.write(bi,"png",new File("test.png"));}catch (Exception e) {}
     }
 }

@@ -23,12 +23,11 @@
       <file leaf-file-name="QuizFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-514">
-              <caret line="304" column="51" lean-forward="false" selection-start-line="304" selection-start-column="51" selection-end-line="304" selection-end-column="51" />
+            <state relative-caret-position="195">
+              <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
               <folding>
                 <element signature="e#8052#8053#0" expanded="true" />
                 <element signature="e#8156#8157#0" expanded="true" />
-                <element signature="e#13822#13823#0" expanded="true" />
                 <element signature="e#13932#13933#0" expanded="true" />
                 <element signature="e#16352#16353#0" expanded="true" />
                 <element signature="e#16464#16465#0" expanded="true" />
@@ -50,11 +49,21 @@
       <file leaf-file-name="ImageOutputFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="339">
+              <caret line="54" column="114" lean-forward="true" selection-start-line="54" selection-start-column="114" selection-end-line="54" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageIcon.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,10 +144,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1932" />
-    <option name="height" value="1092" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -537,7 +545,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,7 +557,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -612,14 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/BackgroundPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -685,7 +685,6 @@
           <folding>
             <element signature="e#8052#8053#0" expanded="true" />
             <element signature="e#8156#8157#0" expanded="true" />
-            <element signature="e#13822#13823#0" expanded="true" />
             <element signature="e#13932#13933#0" expanded="true" />
             <element signature="e#16352#16353#0" expanded="true" />
             <element signature="e#16464#16465#0" expanded="true" />
@@ -766,7 +765,6 @@
           <folding>
             <element signature="e#8052#8053#0" expanded="true" />
             <element signature="e#8156#8157#0" expanded="true" />
-            <element signature="e#13822#13823#0" expanded="true" />
             <element signature="e#13932#13933#0" expanded="true" />
             <element signature="e#16352#16353#0" expanded="true" />
             <element signature="e#16464#16465#0" expanded="true" />
@@ -988,6 +986,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ImagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -998,12 +1004,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="304" column="51" lean-forward="false" selection-start-line="304" selection-start-column="51" selection-end-line="304" selection-end-column="51" />
+        <state relative-caret-position="195">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
           <folding>
             <element signature="e#8052#8053#0" expanded="true" />
             <element signature="e#8156#8157#0" expanded="true" />
-            <element signature="e#13822#13823#0" expanded="true" />
             <element signature="e#13932#13933#0" expanded="true" />
             <element signature="e#16352#16353#0" expanded="true" />
             <element signature="e#16464#16465#0" expanded="true" />
@@ -1011,18 +1016,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ImagePanel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="339">
+          <caret line="54" column="114" lean-forward="true" selection-start-line="54" selection-start-column="114" selection-end-line="54" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
