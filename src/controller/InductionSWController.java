@@ -47,6 +47,7 @@ public class InductionSWController
     private Questionnaire questionnaire;
     private Inductee currentInductee;
     public static final int QUIZ_PASS_PERCENTAGE = 70;
+    public static final String PRINTABLE_IMAGE_FILENAME = "printableoutput.png";
 //    public static final String QUESTIONNAIRE_LOCATION = "C:\\InductionApp\\Questionnaire.txt";
     public static final String QUESTIONNAIRE_LOCATION = "Questionnaire.txt";
     public static final String DATAMODEL_FILE_LOCATION = "DataModel.dat";
@@ -209,6 +210,22 @@ public class InductionSWController
 
         VideoPlayer vp = new VideoPlayer();
 
+    }
+
+    public void printDetails() {
+        Process p;
+        try {
+
+            p = Runtime.getRuntime().exec(new String[]{"bash", "-c","lpr " + PRINTABLE_IMAGE_FILENAME});
+
+            p.waitFor();
+            System.out.println ("exit: " + p.exitValue());
+            p.destroy();
+
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
 

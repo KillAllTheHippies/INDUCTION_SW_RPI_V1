@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84628e92-a41b-48c5-bab5-a9acc6f20112" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/InductionSWController.java" afterPath="$PROJECT_DIR$/src/controller/InductionSWController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" afterPath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="InductionSWController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="182" column="15" lean-forward="false" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
+            <state relative-caret-position="263">
+              <caret line="218" column="101" lean-forward="false" selection-start-line="218" selection-start-column="101" selection-end-line="218" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -49,8 +50,8 @@
       <file leaf-file-name="ImageOutputFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="54" column="114" lean-forward="true" selection-start-line="54" selection-start-column="114" selection-end-line="54" selection-end-column="114" />
+            <state relative-caret-position="-461">
+              <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,7 +62,7 @@
       <file leaf-file-name="ImageIcon.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="1878">
               <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
               <folding />
             </state>
@@ -125,7 +126,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/view/InducteesTableModel.java" />
-        <option value="$PROJECT_DIR$/src/controller/InductionSWController.java" />
         <option value="$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml" />
         <option value="$PROJECT_DIR$/src/view/ViewInducteesFrame.java" />
         <option value="$PROJECT_DIR$/src/controller/VideoPlayer.java" />
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/Questionnaire.txt" />
         <option value="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
         <option value="$PROJECT_DIR$/src/view/QuizFrame.java" />
+        <option value="$PROJECT_DIR$/src/controller/InductionSWController.java" />
         <option value="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
       </list>
     </option>
@@ -994,14 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="182" column="15" lean-forward="false" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1018,16 +1011,24 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="1878">
           <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="218" column="101" lean-forward="false" selection-start-line="218" selection-start-column="101" selection-end-line="218" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="54" column="114" lean-forward="true" selection-start-line="54" selection-start-column="114" selection-end-line="54" selection-end-column="114" />
+        <state relative-caret-position="-461">
+          <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
