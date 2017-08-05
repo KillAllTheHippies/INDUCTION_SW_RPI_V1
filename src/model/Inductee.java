@@ -28,7 +28,7 @@ public class Inductee implements Serializable {
         // Collect the wrong answers in the format "Wrong_answer|Correct_answer|Question_index"
         private ArrayList<String> wrongAnswers;
         //TODO: get rid of serialVersionUID
-        private static long serialVersionUID = 1L;
+//        private static long serialVersionUID = 1L;
 
         // transient ArrayList<BufferedImage> documents;
 

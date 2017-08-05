@@ -35,6 +35,8 @@ public class ImageOutputFrame extends JFrame {
         this.setVisible(true);
         createImageFromFrame();
         InductionSWController.getInstance().printDetails();
+        this.dispose();
+
     }
     private JPanel createCenterPanel() {
         JPanel centerPanel = new JPanel();
@@ -45,7 +47,7 @@ public class ImageOutputFrame extends JFrame {
         Date d = new Date(InductionSWController.getInstance().getCurrentInductee().getDateOfInduction());
         JLabel lblDateTime = new JLabel(d.toString() );
         lblDateTime.setFont(new Font("Times New Roman", 0, 30));
-        centerPanel.add(lblDateTime);
+        centerPanel.add(lblDateTime,BorderLayout.CENTER);
 //        ImagePanel imagePanel = new ImagePanel(InductionSWController.getInstance().getCurrentInductee().getPhoto());
 //        imagePanel.setSize(InductionSWController.getInstance().getCurrentInductee().getPhoto().getWidth(),InductionSWController.getInstance().getCurrentInductee().getPhoto().getHeight());
         JPanel imagePanel = new JPanel();
@@ -56,7 +58,7 @@ public class ImageOutputFrame extends JFrame {
         ImageIcon icon = new ImageIcon(img);
         JLabel label = new JLabel(icon);
         imagePanel.add(label);
-       
+
         centerPanel.add(imagePanel,BorderLayout.CENTER);
         centerPanel.add(createDetailsPanel(),BorderLayout.EAST);
         return centerPanel;

@@ -7,8 +7,7 @@ import net.miginfocom.swing.MigLayout;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -81,10 +80,70 @@ public class UserInputFrame extends JFrame {
 
 
         tfName = new JTextField("", 20);
+        tfName.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                String regex = "^[a-zA-Z' ]+$";
+
+                if (!tfName.getText().isEmpty()) {
+                    if (tfName.getText().matches(regex)) {
+                        // ...
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Letters and punctuation only allowed in name ");
+                        tfName.grabFocus();
+                    }
+                }
+            }
+        });
         tfEmail = new JTextField("", 20);
+        tfEmail.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                String regex = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
+
+                if (!tfEmail.getText().isEmpty()) {
+                    if (tfEmail.getText().matches(regex)) {
+                        // ...
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Please enter a valid email address");
+                        tfEmail.grabFocus();
+                    }
+                }
+            }
+        });
         tfJobTitle = new JTextField("", 20);
         tfCarReg = new JTextField("", 20);
         tfPhoneNum = new JTextField("", 20);
+        tfPhoneNum.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                String regex = "-?\\d+(\\.\\d+)?";
+
+                if (!tfPhoneNum.getText().isEmpty()) {
+                    if (tfPhoneNum.getText().matches(regex)) {
+                        // ...
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Only digits allowed in phone number");
+                        tfPhoneNum.grabFocus();
+                    }
+                }
+            }
+        });
         chkFirstAidTrained = new JCheckBox("Yes", false);
 
 //        JButton btnPhotographCompetencies = new JButton("Photograph Competencies");
