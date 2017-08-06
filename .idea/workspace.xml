@@ -7,12 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84628e92-a41b-48c5-bab5-a9acc6f20112" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener$7$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener$7.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_V1_jar/INDUCTION_SW_RPI_V1.jar" afterPath="$PROJECT_DIR$/out/artifacts/INDUCTION_SW_RPI_V1_jar/INDUCTION_SW_RPI_V1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/model/Inductee.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/model/Inductee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/ImageOutputFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/ImageOutputFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/controller/VideoPlayer.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/controller/VideoPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame$ButtonsActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/QuizFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$1.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$2.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame$ButtonsActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame.class" afterPath="$PROJECT_DIR$/out/production/INDUCTION_SW_RPI_V1/view/UserInputFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Inductee.java" afterPath="$PROJECT_DIR$/src/model/Inductee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" afterPath="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/VideoPlayer.java" afterPath="$PROJECT_DIR$/src/controller/VideoPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/QuizFrame.java" afterPath="$PROJECT_DIR$/src/view/QuizFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/UserInputFrame.java" afterPath="$PROJECT_DIR$/src/view/UserInputFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,30 +38,8 @@
       <file leaf-file-name="QuizFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5168">
-              <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3334#3335#0" expanded="false" />
-                <element signature="e#3386#3387#0" expanded="false" />
-                <element signature="e#8052#8053#0" expanded="false" />
-                <element signature="e#8156#8157#0" expanded="false" />
-                <element signature="e#10996#10997#0" expanded="false" />
-                <element signature="e#11100#11101#0" expanded="false" />
-                <element signature="e#12161#12162#0" expanded="false" />
-                <element signature="e#12233#12234#0" expanded="false" />
-                <element signature="e#16352#16353#0" expanded="false" />
-                <element signature="e#16464#16465#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InductionSWController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="-2892">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,11 +48,9 @@
       <file leaf-file-name="UserInputFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="161" column="50" lean-forward="true" selection-start-line="161" selection-start-column="50" selection-end-line="161" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="358">
+              <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,9 +58,11 @@
       <file leaf-file-name="ImageOutputFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="202">
+              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,73 +135,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageIcon.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
+      <file leaf-file-name="PhotoTakeFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#22258#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2601#3398#0" expanded="false" />
-                <element signature="e#3397#3398#0" expanded="false" />
-                <element signature="e#3684#3880#0" expanded="false" />
-                <element signature="e#3879#3880#0" expanded="false" />
-                <element signature="e#5677#5678#0" expanded="false" />
-                <element signature="e#5717#5718#0" expanded="false" />
-                <element signature="e#6701#6702#0" expanded="false" />
-                <element signature="e#6758#6759#0" expanded="false" />
-                <element signature="e#11640#11641#0" expanded="false" />
-                <element signature="e#11673#11674#0" expanded="false" />
-                <element signature="e#11859#11860#0" expanded="false" />
-                <element signature="e#11887#11888#0" expanded="false" />
-                <element signature="e#12463#12464#0" expanded="false" />
-                <element signature="e#12497#12498#0" expanded="false" />
-                <element signature="e#12864#12865#0" expanded="false" />
-                <element signature="e#12910#12911#0" expanded="false" />
-                <element signature="e#13901#13902#0" expanded="false" />
-                <element signature="e#13929#13930#0" expanded="false" />
-                <element signature="e#14071#14072#0" expanded="false" />
-                <element signature="e#14100#14101#0" expanded="false" />
-                <element signature="e#14557#14558#0" expanded="false" />
-                <element signature="e#14597#14598#0" expanded="false" />
-                <element signature="e#14784#14785#0" expanded="false" />
-                <element signature="e#14820#14821#0" expanded="false" />
-                <element signature="e#18413#18414#0" expanded="false" />
-                <element signature="e#18463#18464#0" expanded="false" />
-                <element signature="e#18744#18745#0" expanded="false" />
-                <element signature="e#18779#18780#0" expanded="false" />
-                <element signature="e#19172#19173#0" expanded="false" />
-                <element signature="e#19207#19208#0" expanded="false" />
-                <element signature="e#19521#19522#0" expanded="false" />
-                <element signature="e#19554#19555#0" expanded="false" />
-                <element signature="e#19929#19930#0" expanded="false" />
-                <element signature="e#19961#19962#0" expanded="false" />
-                <element signature="e#20214#20215#0" expanded="false" />
-                <element signature="e#20249#20250#0" expanded="false" />
-                <element signature="e#20950#20951#0" expanded="false" />
-                <element signature="e#21012#21013#0" expanded="false" />
-                <element signature="e#21421#21422#0" expanded="false" />
-                <element signature="e#21487#21488#0" expanded="false" />
-                <element signature="e#21652#21653#0" expanded="false" />
-                <element signature="e#21704#21705#0" expanded="false" />
-                <element signature="e#21866#21867#0" expanded="false" />
-                <element signature="e#21917#21918#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="680">
+              <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoTakeFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
+      <file leaf-file-name="PhotoConfirmFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1365#2224#0" expanded="false" />
-                <element signature="e#2223#2224#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-646">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,11 +186,23 @@
       <find>error readi</find>
       <find>error readin</find>
       <find>error reading</find>
-      <find>error reading</find>
       <find>error reading f</find>
       <find>error reading fi</find>
       <find>error reading file</find>
+      <find>score assessment</find>
+      <find>dfe</find>
+      <find>df</find>
+      <find>demo</find>
+      <find>demo</find>
+      <find>dem</find>
+      <find>de</find>
+      <find>d</find>
+      <find>tes</find>
+      <find>test</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\CODING_PROJECTS\INDUCTION_SW_RPI_V1</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/view/InducteesTableModel.java" />
         <option value="$PROJECT_DIR$/INDUCTION_SW_RPI_V1.iml" />
         <option value="$PROJECT_DIR$/src/view/ViewInducteesFrame.java" />
-        <option value="$PROJECT_DIR$/src/controller/VideoPlayer.java" />
         <option value="$PROJECT_DIR$/src/view/PhotoTakeFrame.java" />
         <option value="$PROJECT_DIR$/src/view/BackgroundPanel.java" />
         <option value="$PROJECT_DIR$/src/view/BackgroundFrame.java" />
@@ -278,10 +225,11 @@
         <option value="$PROJECT_DIR$/src/view/PrintableFrame.java" />
         <option value="$PROJECT_DIR$/Questionnaire.txt" />
         <option value="$PROJECT_DIR$/src/view/PhotoConfirmFrame.java" />
-        <option value="$PROJECT_DIR$/src/view/QuizFrame.java" />
         <option value="$PROJECT_DIR$/src/controller/InductionSWController.java" />
         <option value="$PROJECT_DIR$/src/view/ImageOutputFrame.java" />
         <option value="$PROJECT_DIR$/src/model/Inductee.java" />
+        <option value="$PROJECT_DIR$/src/controller/VideoPlayer.java" />
+        <option value="$PROJECT_DIR$/src/view/QuizFrame.java" />
         <option value="$PROJECT_DIR$/src/view/UserInputFrame.java" />
       </list>
     </option>
@@ -701,6 +649,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -712,7 +661,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,7 +697,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -785,11 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1365#2224#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,19 +757,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="23" lean-forward="false" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3334#3335#0" expanded="false" />
-            <element signature="e#3386#3387#0" expanded="false" />
-            <element signature="e#8052#8053#0" expanded="false" />
-            <element signature="e#8156#8157#0" expanded="false" />
-            <element signature="e#10996#10997#0" expanded="false" />
-            <element signature="e#11100#11101#0" expanded="false" />
-            <element signature="e#12161#12162#0" expanded="false" />
-            <element signature="e#12233#12234#0" expanded="false" />
-            <element signature="e#16352#16353#0" expanded="false" />
-            <element signature="e#16464#16465#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,11 +803,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1365#2224#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,19 +825,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3349">
           <caret line="212" column="23" lean-forward="false" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3334#3335#0" expanded="false" />
-            <element signature="e#3386#3387#0" expanded="false" />
-            <element signature="e#8052#8053#0" expanded="false" />
-            <element signature="e#8156#8157#0" expanded="false" />
-            <element signature="e#10996#10997#0" expanded="false" />
-            <element signature="e#11100#11101#0" expanded="false" />
-            <element signature="e#12161#12162#0" expanded="false" />
-            <element signature="e#12233#12234#0" expanded="false" />
-            <element signature="e#16352#16353#0" expanded="false" />
-            <element signature="e#16464#16465#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,11 +871,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1365#2224#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,25 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1365#2224#0" expanded="false" />
-            <element signature="e#2223#2224#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="100" column="5" lean-forward="false" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MainDashBoardFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -1102,26 +997,6 @@
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5168">
-          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3334#3335#0" expanded="false" />
-            <element signature="e#3386#3387#0" expanded="false" />
-            <element signature="e#8052#8053#0" expanded="false" />
-            <element signature="e#8156#8157#0" expanded="false" />
-            <element signature="e#10996#10997#0" expanded="false" />
-            <element signature="e#11100#11101#0" expanded="false" />
-            <element signature="e#12161#12162#0" expanded="false" />
-            <element signature="e#12233#12234#0" expanded="false" />
-            <element signature="e#16352#16353#0" expanded="false" />
-            <element signature="e#16464#16465#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1178,14 +1053,6 @@
             <element signature="e#21866#21867#0" expanded="false" />
             <element signature="e#21917#21918#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,14 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/VideoPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/InductionSWController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1269,13 +1128,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/VideoPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="161" column="50" lean-forward="true" selection-start-line="161" selection-start-column="50" selection-end-line="161" selection-end-column="50" />
+        <state relative-caret-position="477">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ImageOutputFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/PhotoTakeFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/PhotoConfirmFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/QuizFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2892">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/UserInputFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

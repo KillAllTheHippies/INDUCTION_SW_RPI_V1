@@ -48,8 +48,8 @@ public class UserInputFrame extends JFrame {
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         // create the side and bottom panels and add them to the layout
-        JPanel sidePanel = createSideButtonPanel();
-        mainPanel.add(sidePanel, BorderLayout.EAST);
+//        JPanel sidePanel = createSideButtonPanel();
+//        mainPanel.add(sidePanel, BorderLayout.EAST);
         JPanel bottomPanel = createBottomButtonPanel();
         mainPanel.add(bottomPanel, BorderLayout.SOUTH);
 
@@ -109,7 +109,7 @@ public class UserInputFrame extends JFrame {
 
             @Override
             public void focusLost(FocusEvent e) {
-                String regex = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
+                String regex = "(?:[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-zA-Z0-9-]*[a-zA-Z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
 
                 if (!tfEmail.getText().isEmpty()) {
                     if (tfEmail.getText().matches(regex)) {
@@ -217,41 +217,41 @@ public class UserInputFrame extends JFrame {
         return buttonPanel;
     }
 
-    private JPanel createSideButtonPanel() {
-        // instantiate the buttons
-//        this.addUserButton = new JButton("Add User");
-        this.displayInducteesButton = new JButton("Display Inductees");
-//        this.BackEndButton = new JButton("Launch Backend");
-//        this.takeQuizButton = new JButton("Take Quiz");
-//        this.displayVideoButton = new JButton("Display Video");
-
-
-        // Instantiate the listener for the buttons,
-        // passing it in a reference to this class (TwitterFrame)
-        // and assign it to the buttons
-        ButtonsActionListener buttonListener = new ButtonsActionListener(this);
-//        addUserButton.addActionListener(buttonListener);
-        displayInducteesButton.addActionListener(buttonListener);
-//        takeQuizButton.addActionListener(buttonListener);
-//        BackEndButton.addActionListener(buttonListener);
-//        displayVideoButton.addActionListener(buttonListener);
-
-        // Create panel, assign layout, add components.
-        JPanel sideButtonPanel = new JPanel();
-        sideButtonPanel.setLayout(new BoxLayout(sideButtonPanel, BoxLayout.Y_AXIS));
-//        sideButtonPanel.add(addUserButton);
-        sideButtonPanel.add(Box.createVerticalStrut(50));
-        sideButtonPanel.add(displayInducteesButton);
-//        sideButtonPanel.add(Box.createVerticalStrut(5));
-//        sideButtonPanel.add(BackEndButton);
-//        sideButtonPanel.add(Box.createVerticalStrut(20));
-//        sideButtonPanel.add(displayVideoButton);
-//        sideButtonPanel.add(Box.createVerticalStrut(5));
-//        sideButtonPanel.add(takeQuizButton);
-
-
-        return sideButtonPanel;
-    }
+//    private JPanel createSideButtonPanel() {
+//        // instantiate the buttons
+////        this.addUserButton = new JButton("Add User");
+//        this.displayInducteesButton = new JButton("Display Inductees");
+////        this.BackEndButton = new JButton("Launch Backend");
+////        this.takeQuizButton = new JButton("Take Quiz");
+////        this.displayVideoButton = new JButton("Display Video");
+//
+//
+//        // Instantiate the listener for the buttons,
+//        // passing it in a reference to this class (TwitterFrame)
+//        // and assign it to the buttons
+//        ButtonsActionListener buttonListener = new ButtonsActionListener(this);
+////        addUserButton.addActionListener(buttonListener);
+//        displayInducteesButton.addActionListener(buttonListener);
+////        takeQuizButton.addActionListener(buttonListener);
+////        BackEndButton.addActionListener(buttonListener);
+////        displayVideoButton.addActionListener(buttonListener);
+//
+//        // Create panel, assign layout, add components.
+//        JPanel sideButtonPanel = new JPanel();
+//        sideButtonPanel.setLayout(new BoxLayout(sideButtonPanel, BoxLayout.Y_AXIS));
+////        sideButtonPanel.add(addUserButton);
+//        sideButtonPanel.add(Box.createVerticalStrut(50));
+//        sideButtonPanel.add(displayInducteesButton);
+////        sideButtonPanel.add(Box.createVerticalStrut(5));
+////        sideButtonPanel.add(BackEndButton);
+////        sideButtonPanel.add(Box.createVerticalStrut(20));
+////        sideButtonPanel.add(displayVideoButton);
+////        sideButtonPanel.add(Box.createVerticalStrut(5));
+////        sideButtonPanel.add(takeQuizButton);
+//
+//
+//        return sideButtonPanel;
+//    }
 
 
     //Inner class implementation of ActionListener
@@ -305,36 +305,6 @@ public class UserInputFrame extends JFrame {
 //                ptf.setSize(640,480);
             ptf.setLocationRelativeTo(null);
 
-            // ++++++IF THE INDUCTEE IS NULL IT MEANS THE PHOTOGRAPH BUTTON HAS NOT BEEN CLICKED+++++++
-
-//            if (InductionSWController.getInstance().getCurrentInductee() == null) {
-//                String message = "You have not supplied any photographs of your proof of competencies\nAre you sure you wish to continue??";
-//                int answer =
-//                        JOptionPane.showConfirmDialog(outerClass, message);
-//                if (answer == JOptionPane.YES_OPTION) {
-//                    // Collect the inductee info
-//                    InductionSWController.getInstance().createInductee(tfName.getText(), tfEmail.getText(),
-//                            tfJobTitle.getText(), tfPhoneNum.getText(), tfCarReg.getText(),
-//                            tfCompetencies.getText(), System.currentTimeMillis());
-//                    // Launch the video
-//                    InductionSWController.getInstance().launchVideo();
-//                    dispose();
-//                } else if (answer == JOptionPane.NO_OPTION) {
-//
-//                } else {
-//
-//                }
-//
-//            } else {
-            //TODO: Move this
-//                InductionSWController.getInstance().launchVideo();
-//                dispose();
-//            }
-//                QuizFrame qf = new QuizFrame("Quiz", outerClass);
-//                qf.setSize(400,300);
-                // hide the frame
-//                outerClass.setVisible(false);
-//                i.getIndex()
             }
 //            // ------------------TAKE QUIZ BUTTON------------------
 //            else if (sourceButton.equals(takeQuizButton)) {
@@ -354,10 +324,10 @@ public class UserInputFrame extends JFrame {
 //            }
             // ------------------DISPLAY INDUCTEES BUTTON------------------
             else {
-                ViewInducteesFrame dif = new ViewInducteesFrame("View Inductees");
-                dif.setSize(800, 300);
-
-                dif.setVisible(true);
+//                ViewInducteesFrame dif = new ViewInducteesFrame("View Inductees");
+//                dif.setSize(800, 300);
+//
+//                dif.setVisible(true);
 
             } // end else
 

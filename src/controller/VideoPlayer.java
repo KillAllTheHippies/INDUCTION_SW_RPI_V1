@@ -8,7 +8,8 @@ import javax.swing.*;
 public class VideoPlayer {
 
     public VideoPlayer() {
-        runCommand("omxplayer -r -o hdmi InductionVideo.mp4");
+//        runCommand("omxplayer -r -o hdmi InductionVideo.mp4");
+        runCommand("omxplayer -o hdmi InductionVideo.mp4");
 
         //
         QuizFrame qf = new QuizFrame("Induction Assessment");
