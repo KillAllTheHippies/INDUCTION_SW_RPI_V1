@@ -212,7 +212,7 @@ public class InductionSWController
 
     }
 
-    public void printDetails() {
+    public void printInducteeDetails( ) {
         Process p;
         try {
 

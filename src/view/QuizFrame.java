@@ -154,7 +154,7 @@ public class QuizFrame extends JFrame {
                                 "(" + (quizScore * 100) / quizSize + "%)");
 
 
-                        JLabel wrongLabel = new JLabel("<html>Please pay attention to the questions that you answered incorrectly.>/html>");
+                        JLabel wrongLabel = new JLabel("<html>Please pay attention to the questions that you answered incorrectly.</html>");
                         panel.add(new JLabel("<html>Congratulations! You have passed your induction.<br>Please wait for your printout. </html>"));
                         panel.add(scoreLabel);
                         if (quizScore < quizSize)
@@ -195,7 +195,9 @@ public class QuizFrame extends JFrame {
                                 } else {
                                     System.out.println("CURRENT INDUCTEE IS NULL!!!!!!!!!!!!!!!!!!!!");
                                 }
-
+                                /*Output the inductee info to the printer*/
+                                ImageOutputFrame imageOutputFrame = new ImageOutputFrame();
+                                imageOutputFrame.setVisible(true);
 
                                 // LAUNCH THE MAIN DASHBOARD AGAIN
                                 SwingUtilities.invokeLater(new Runnable() {
@@ -247,7 +249,10 @@ public class QuizFrame extends JFrame {
                         JButton reTakeQuizBtn = new JButton("Re-take Assessment");
                         reTakeQuizBtn.addActionListener(new ButtonsActionListener(outerClass) {
                             public void actionPerformed(ActionEvent e) {
-                                InductionSWController.getInstance().launchVideo();
+//                                InductionSWController.getInstance().launchVideo();
+                                QuizFrame qf = new QuizFrame("Induction Assessment");
+                                qf.setExtendedState(JFrame.MAXIMIZED_BOTH); // Fullscreen
+                                qf.setVisible(true);
                                 outerClass.dispose();
                             }
                         });

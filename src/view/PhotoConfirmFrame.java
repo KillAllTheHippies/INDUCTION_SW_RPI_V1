@@ -35,8 +35,8 @@ public class PhotoConfirmFrame extends JFrame implements IGui
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         //Call to method to create side panel
-        JPanel sidePanel = createSideButtonPanel();
-        mainPanel.add(sidePanel, BorderLayout.EAST);
+//        JPanel sidePanel = createSideButtonPanel();
+//        mainPanel.add(sidePanel, BorderLayout.EAST);
 
         //Call to method to create bottom panel
         JPanel bottomPanel = createBottomButtonPanel();
@@ -97,32 +97,32 @@ public class PhotoConfirmFrame extends JFrame implements IGui
         return buttonPanel;
     }
 
-    private JPanel createSideButtonPanel()
-    {
-        showPhotoButton = new JButton("Show Photo");
-
+//    private JPanel createSideButtonPanel()
+//    {
+//        showPhotoButton = new JButton("Show Photo");
 //
-//        //Create an instance of inner class
-//        //SideButtonsActionListener
-//        //When we create an instance of the inner class we pass
-//        //it a reference to its containing class.
-        ButtonsActionListener buttonListener =
-                new ButtonsActionListener(this);
+////
+////        //Create an instance of inner class
+////        //SideButtonsActionListener
+////        //When we create an instance of the inner class we pass
+////        //it a reference to its containing class.
+//        ButtonsActionListener buttonListener =
+//                new ButtonsActionListener(this);
+////
+////        displayScoreButton.addActionListener(buttonListener);
+//        showPhotoButton.addActionListener(buttonListener);
+////        deleteButton.addActionListener(buttonListener);
+////
+//        JPanel sideButtonPanel = new JPanel();
+////
+//        BoxLayout boxL = new BoxLayout(sideButtonPanel, BoxLayout.Y_AXIS);
+//        sideButtonPanel.setLayout(boxL);
+////
+//        sideButtonPanel.add(showPhotoButton);
 //
-//        displayScoreButton.addActionListener(buttonListener);
-        showPhotoButton.addActionListener(buttonListener);
-//        deleteButton.addActionListener(buttonListener);
 //
-        JPanel sideButtonPanel = new JPanel();
-//
-        BoxLayout boxL = new BoxLayout(sideButtonPanel, BoxLayout.Y_AXIS);
-        sideButtonPanel.setLayout(boxL);
-//
-        sideButtonPanel.add(showPhotoButton);
-
-
-        return sideButtonPanel;
-    }
+//        return sideButtonPanel;
+//    }
 
     public void showImage(BufferedImage img, String text) {
 //        JFrame frame0 = new JFrame();
@@ -145,47 +145,46 @@ public class PhotoConfirmFrame extends JFrame implements IGui
     }
 
     //Inner class implementation of ActionListener
-    private class ButtonsActionListener implements ActionListener
-    {
+
         //This is to allow this inner class to refer to its
         //containing class (i.e. ViewInducteesFrame)
-        private PhotoConfirmFrame outerClass;
-
-        public ButtonsActionListener(PhotoConfirmFrame outerClass)
-        {
-            this.outerClass = outerClass;
-        }
-
-        public void actionPerformed(ActionEvent e)
-        {
-
-            JButton sourceButton = (JButton)e.getSource();
-            //          SHOW PHOTO BUTTON
-            if(sourceButton.equals(showPhotoButton))
-            {
-
-                if (InductionSWController.getInstance().getCurrentInductee().getPhoto()!=null)
-                {
-                    showImage(
-                            InductionSWController.getInstance().getCurrentInductee().getPhoto(),
-                            InductionSWController.getInstance().getCurrentInductee().getName()
-                    );
-                } else {
-                    JOptionPane.showMessageDialog
-                            (outerClass,
-                                    "No photo available.",
-                                    "Error", JOptionPane.ERROR_MESSAGE);
-                }
-
-
-            }
-
-            else
-            {
+//        private PhotoConfirmFrame outerClass;
 //
-                }
-            }
+//        public ButtonsActionListener(PhotoConfirmFrame outerClass)
+//        {
+//            this.outerClass = outerClass;
+//        }
+
+//        public void actionPerformed(ActionEvent e)
+//        {
+//
+//            JButton sourceButton = (JButton)e.getSource();
+//            //          SHOW PHOTO BUTTON
+//            if(sourceButton.equals(showPhotoButton))
+//            {
+//
+//                if (InductionSWController.getInstance().getCurrentInductee().getPhoto()!=null)
+//                {
+//                    showImage(
+//                            InductionSWController.getInstance().getCurrentInductee().getPhoto(),
+//                            InductionSWController.getInstance().getCurrentInductee().getName()
+//                    );
+//                } else {
+//                    JOptionPane.showMessageDialog
+//                            (outerClass,
+//                                    "No photo available.",
+//                                    "Error", JOptionPane.ERROR_MESSAGE);
+//                }
+//
+//
+//            }
+//
+//            else
+//            {
+////
+//                }
+//            }
 
         }
-    }
+
 

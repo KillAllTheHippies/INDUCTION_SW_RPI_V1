@@ -5,13 +5,9 @@ import net.miginfocom.swing.MigLayout;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
 import java.util.Date;
 
 /**
@@ -34,7 +30,7 @@ public class ImageOutputFrame extends JFrame {
         this.pack();
         this.setVisible(true);
         createImageFromFrame();
-        InductionSWController.getInstance().printDetails();
+        InductionSWController.getInstance().printInducteeDetails();
         this.dispose();
 
     }
@@ -92,13 +88,17 @@ public class ImageOutputFrame extends JFrame {
         Date d = new Date(InductionSWController.getInstance().getCurrentInductee().getDateOfInduction());
         JLabel lblDateTime = new JLabel(d.toString() );
         lblDateTime.setFont(new Font("Times New Roman", 0, 30));
+        detailsPanel.add(new JLabel(" "));
+        detailsPanel.add(new JLabel(" "));
+        detailsPanel.add(new JLabel(" "));
+        detailsPanel.add(new JLabel(" "));
         detailsPanel.add(lblName);
         detailsPanel.add(lblPhoneNum);
         detailsPanel.add(lblEmail);
         detailsPanel.add(lblJobTitle);
         detailsPanel.add(lblCarReg);
         detailsPanel.add(lblFirstAidTrained);
-        detailsPanel.add(lblDateTime);
+//        detailsPanel.add(lblDateTime);
 
         return detailsPanel;
 
